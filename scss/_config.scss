@@ -1,0 +1,16 @@
+$color-1: #84fab0;
+$color-2: #e5b2ca;
+$color-3: #7028e4;
+$color-4: #333333;
+$color-5: #222222;
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin animation {
+  transition: all 0.5s ease-in-out;
+}
